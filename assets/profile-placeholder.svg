@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A clean editorial portrait placeholder with a JK monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f7fb"/>
+      <stop offset=".55" stop-color="#ece9f9"/>
+      <stop offset="1" stop-color="#e6f6f0"/>
+    </linearGradient>
+    <linearGradient id="suit" x1=".2" y1=".2" x2=".9" y2="1">
+      <stop offset="0" stop-color="#141414"/>
+      <stop offset="1" stop-color="#3a3f49"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7257d8"/>
+      <stop offset=".55" stop-color="#26b99a"/>
+      <stop offset="1" stop-color="#ef6f61"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="28" flood-color="#111827" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="720" height="900" fill="url(#bg)"/>
+  <path d="M80 712c55-133 157-196 278-196 129 0 230 70 282 196v188H80V712Z" fill="url(#suit)" filter="url(#softShadow)"/>
+  <path d="M287 527h142l-24 373h-92L287 527Z" fill="#fff"/>
+  <path d="M306 561h104l-26 68h-52l-26-68Z" fill="#eef2f7"/>
+  <circle cx="360" cy="316" r="142" fill="#f0c9b2"/>
+  <path d="M229 315c2-96 63-172 153-172 84 0 143 59 147 152-34-28-78-43-133-45-72-2-120 16-167 65Z" fill="#191919"/>
+  <path d="M239 329c26-64 76-98 153-96 48 2 89 16 122 43 3 18 4 33 2 48-57-16-105-21-144-15-44 6-87 24-133 54-3-11-3-22 0-34Z" fill="#222"/>
+  <path d="M248 371c28 79 69 119 123 119 55 0 96-41 121-123-35 22-73 34-114 34-46 0-89-10-130-30Z" fill="#efc0a6"/>
+  <rect x="247" y="348" width="87" height="38" rx="19" fill="none" stroke="#20222a" stroke-width="10"/>
+  <rect x="386" y="348" width="87" height="38" rx="19" fill="none" stroke="#20222a" stroke-width="10"/>
+  <path d="M334 365h52" stroke="#20222a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M318 436c31 21 62 21 93 0" fill="none" stroke="#8f5c4a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M121 116h480" stroke="#151515" stroke-opacity=".08" stroke-width="2"/>
+  <path d="M121 785h480" stroke="#fff" stroke-opacity=".16" stroke-width="2"/>
+  <text x="72" y="620" fill="#151515" fill-opacity=".06" font-family="Arial, Helvetica, sans-serif" font-size="172" font-weight="800">JK</text>
+  <text x="481" y="188" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800">JK</text>
+</svg>
