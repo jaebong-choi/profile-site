@@ -1,0 +1,10 @@
+node_modules
+.next
+next-build
+.npm-cache
+next-dev.log
+next-dev.err.log
+next-start.log
+next-start.err.log
+out
+*.log
