@@ -8,7 +8,6 @@ import {
   Languages,
   MapPin,
   MessageCircle,
-  Phone,
   PlaneTakeoff,
   School,
   Send,
@@ -188,10 +187,6 @@ export default function Home() {
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <ButtonLink href={reserveUrl} className="w-full sm:w-auto" target="_blank" rel="noreferrer">
                 상담 예약하기 <ArrowRight className="h-5 w-5" />
-              </ButtonLink>
-              <ButtonLink href="#" variant="secondary" className="w-full sm:w-auto">
-                <Phone className="h-5 w-5" />
-                전화 상담
               </ButtonLink>
             </div>
             <dl className="mt-10 grid grid-cols-3 gap-3 sm:max-w-2xl">
@@ -404,13 +399,6 @@ export default function Home() {
               지금 상담 가능한 일정과 국가를 남겨주세요.
             </h2>
             <div className="mt-8 space-y-4">
-              <a className="flex items-start gap-3 rounded-lg border border-neutral-200 p-4" href="#">
-                <Phone className="mt-1 h-5 w-5 text-brand-red" />
-                <span>
-                  <strong className="block text-brand-dark">전화 상담</strong>
-                  <span className="text-neutral-600">연락처 비공개</span>
-                </span>
-              </a>
               <a className="flex items-start gap-3 rounded-lg border border-neutral-200 p-4" href={branchUrl}>
                 <MapPin className="mt-1 h-5 w-5 text-brand-red" />
                 <span>
@@ -526,7 +514,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-2 text-sm text-neutral-300 sm:text-right">
             <span>대구광역시 중구 중앙대로 383 2층</span>
-            <span>Tel. 연락처 비공개 · Kakao. cjbong23</span>
+            <span>Kakao. cjbong23</span>
           </div>
         </div>
       </footer>
